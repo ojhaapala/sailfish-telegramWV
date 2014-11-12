@@ -14,7 +14,7 @@ Name:       sailfish-telegramWV
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Sailfish Telegram WebView
 Version:    0.1
-Release:    1
+Release:    2
 Group:      Qt/Qt
 License:    LICENSE
 URL:        http://example.org/

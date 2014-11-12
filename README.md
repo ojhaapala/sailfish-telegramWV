@@ -14,4 +14,3 @@ A simple app to view Telegram web interface through a silica webviewer.
 ##Bad things:
  1.   No notifications
  2.   Not sure about battery consumption vs android telegram
- 3.   Doesn't scale (?) please tell me how to get it to scale like when using the browser
