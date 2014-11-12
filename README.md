@@ -6,10 +6,11 @@ sailfish-telegramWV
 A simple app to view Telegram web interface through a silica webviewer.
 
 ##Good things:
-⋅⋅*Avoid using android telegram.
-⋅⋅*Don't need to occupy the browser for this
-⋅⋅*No bar in the bottom
+1.Avoid using android telegram.
+2.Don't need to occupy the browser for this
+3.No bar in the bottom
 
 ##Bad things:
-⋅⋅*No notifications
-⋅⋅*Not sure about battery consumption vs android telegram
+1.No notifications
+2.Not sure about battery consumption vs android telegram
+3.Doesn't scale (?) please tell me how to get it to scale like when using the browser
