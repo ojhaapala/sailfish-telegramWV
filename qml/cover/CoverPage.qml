@@ -36,6 +36,17 @@ CoverBackground {
         icon.source: "tg.png"
         anchors.fill: parent
     }
+    CoverActionList {
+        id: coverAction
+
+        CoverAction {
+            iconSource: "image://theme/icon-cover-refresh"
+            onTriggered: {
+                appWindow.activate();
+                pageStack.currentPage.refresh();
+            }
+        }
+    }
 }
 
 
