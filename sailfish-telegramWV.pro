@@ -19,11 +19,12 @@ SOURCES += src/sailfish-telegramWV.cpp
 OTHER_FILES += qml/sailfish-telegramWV.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
-    rpm/sailfish-telegramWV.changes.in \
     rpm/sailfish-telegramWV.spec \
     rpm/sailfish-telegramWV.yaml \
     translations/*.ts \
-    sailfish-telegramWV.desktop
+    sailfish-telegramWV.desktop \
+    qml/pages/devicePixelRatioHack.js \
+    rpm/sailfish-telegramWV.changes
 
 # to disable building translations every time, comment out the
 # following CONFIG line

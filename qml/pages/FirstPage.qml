@@ -29,7 +29,7 @@
 */
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import QtWebKit.experimental 1.0
+import QtWebKit 3.0
 
 Page {
     id: igPage
@@ -38,7 +38,10 @@ Page {
          anchors.fill: parent
          url: "https://web.telegram.org/#/im"
          quickScroll : true
-         experimental.userAgent:"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36"
+         experimental.userScripts: [
+                     Qt.resolvedUrl("devicePixelRatioHack.js"),
+                 ]
+         //experimental.userAgent:"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36"
              //"Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:31.0) Gecko/31.0 Firefox/31.0 Sailfish Browser/1.0"
          PullDownMenu {
              MenuItem {
